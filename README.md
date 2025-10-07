@@ -18,10 +18,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/parteekdhiman/Lumora.gi
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd client
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -53,6 +53,36 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+
+# Redux Implementation Guide
+
+## Overview
+This document explains how Redux has been implemented in the Job Portal application using Redux Toolkit.
+
+## Architecture
+
+### Store Structure
+The Redux store contains two main slices:
+1. **Auth Slice** - Manages authentication state (user, login status, loading, errors)
+2. **Messages Slice** - Manages messaging state (conversations, unread count, loading, errors)
+
+### Directory Structure
+```
+src/
+├── store/
+│   ├── index.ts          # Store configuration
+│   ├── authSlice.ts      # Auth state slice
+│   ├── messageSlice.ts   # Messages state slice
+│   ├── authThunks.ts     # Async auth operations
+│   └── messageThunks.ts  # Async message operations
+├── hooks/
+│   └── redux.ts          # Custom Redux hooks
+└── context/
+    ├── AuthContext.tsx   # Updated to use Redux
+    └── MessageContext.tsx # Updated to use Redux
+```
+
 
 ## How can I deploy this project?
 
