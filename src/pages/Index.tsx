@@ -63,7 +63,7 @@ const Index = () => {
             <p className="text-lg text-muted-foreground mb-8">
               Discover thousands of opportunities from top companies worldwide
             </p>
-            
+{/*             
             <Card className="p-6 shadow-lg">
               <div className="flex flex-col md:flex-row gap-4">
                 <div className="flex-1 relative">
@@ -84,7 +84,7 @@ const Index = () => {
                   Search Jobs
                 </Button>
               </div>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </section>
