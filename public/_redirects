@@ -1,1 +1,9 @@
-/*    /index.html   200
+/ /index.html 200
+/jobs /index.html 200
+/profile /index.html 200
+/dashboard /index.html 200
+/auth /index.html 200
+/reset-password /index.html 200
+/saved /index.html 200
+/post-job /index.html 200
+/advanced-search /index.html 200
